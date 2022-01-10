@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="login.css" />
+   
     <title>Document</title>
   </head>
   <body>
@@ -55,7 +56,7 @@
             <input type="password" class="password" placeholder="비밀번호" />
             <span class="empty"></span>
            </div>
-            <input type="button" value="로그인" style="cursor:pointer" class="log-btn"></input>
+            <input type="button" value="로그인" style="cursor:pointer" id="logb"></input>
             <div class="gubun">
               <div class="or"></div>
               <div class="and"> 또는</div>
@@ -64,6 +65,7 @@
             <button class="flog" style="cursor:pointer" >
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/450px-Facebook_icon_2013.svg.png" alt="" class="flicon">
               <span class="face"><b>Facebook으로 로그인</b></span>
+     
             </button>
           </section>
           <section>
@@ -71,6 +73,7 @@
               <span><img src="" /></span>
             
             </div>
+            <div id="wrong">                   </div>
             <a href="" class="forget">비밀번호를 잊으셨나요?</a>
           </section>
           </div>
@@ -124,5 +127,6 @@
         </div>
       </footer>
     </div>
+    <script src="./login.js" defer></script>
   </body>
 </html>

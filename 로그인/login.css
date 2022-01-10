@@ -86,7 +86,7 @@ section {
 .forget {
   font-size: 12px;
 }
-.log-btn {
+#logb {
   /* display: flex; */
   width: 268px;
   height: 30px;
