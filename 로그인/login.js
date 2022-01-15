@@ -16,10 +16,10 @@ function signin() {
     alert("성공");
   } else {
     //아니면 함수를 실행해서 innerhtml로 글씨를 띄우는것
-    const wrong = document.querySelector("#wrong");
+    const wrong = document.getElementById("wrong");
     console.log(wrong);
-    document.getElementById("#wrong").innerHTML =
-      "잘못된 비밀번호입니다. 다시 확인하세요";
+    // document.getElementById("#wrong").innerHTML =
+    wrong.innerHTML = "잘못된 비밀번호입니다. 다시 확인하세요";
 
     // function flase(){
     //   const 변수 = document.querySelector(".wrong");
